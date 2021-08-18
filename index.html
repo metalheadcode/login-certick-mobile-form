@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./styles.css">
+  <title>Certick Login</title>
+</head>
+
+<body>
+  <div>
+    <div>
+      <div class='logo-container'>
+        <img id="logo" src="/public/certick-logo.svg" alt="certick-logo">
+      </div>
+
+      <form>
+        <!-- Email Input  -->
+        <div class="group">
+          <input class="text-input" type="email" required>
+          <span class="highlight"></span>
+          <span class="bar"></span>
+          <label>Email</label>
+        </div>
+
+        <!-- Email Input  -->
+        <div class="group">
+          <input class="text-input" type="password" required>
+          <span class="highlight"></span>
+          <span class="bar"></span>
+          <label>Password</label>
+        </div>
+
+        <!-- Checkbox Input  -->
+        <div class="group checkbox-remember-me">
+          <input type="checkbox">
+          <span id='remember-me'>Remember Me</span>
+        </div>
+
+        <!-- button submit  -->
+        <button type="submit">Login</button>
+      </form>
+
+      <!-- others button  -->
+      <div class="other-buttons-group">
+        <a id="create-account" href="https://csr.neuon.ai/userv2/user_register.php">Create Account</a>
+        <a id="forgot-password" href="https://csr.neuon.ai/userv2/user_forgot_password.php">Forgot Password?</a>
+      </div>
+
+      <div>
+        <p id="copyright">CopyRight © 2021 by NEUON AI</p>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
